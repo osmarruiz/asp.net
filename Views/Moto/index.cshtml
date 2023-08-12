@@ -1,0 +1,32 @@
+@model List<Practica2.Models.Moto>;
+
+<form class="form-inline" method="POST" action="/Moto/Find">
+    <div class="form-group mx-sm-3 mb-2">
+        <label class="mr-3">Buscar Moto</label>
+        <div class="row">
+            <div class="col-10">
+
+                <input type="text" class="form-control" required name="Moto">
+            </div>
+            <div class="col-2">
+            <button type="submit" class="btn btn-primary ">Buscar</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mt-4">
+            <div class="card" style="width: 18rem;">
+                <img src="@item.Imagen" class="card-img-top" alt="..." width="100px" height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Modelo, @item.Marca</h5>
+                    <p class="card-text">@item.Anio</p>
+                    <a href="/moto/details/@item.Id" class="btn btn-primary">Info</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

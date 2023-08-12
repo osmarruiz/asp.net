@@ -1,0 +1,72 @@
+[
+    {
+        "Id": 1,
+        "Marca": "Honda",
+        "Modelo": "CBR500R",
+        "Anio": "2022",
+        "Imagen": "/img/cbr500r_2022.png"
+    },
+    {
+        "Id": 2,
+        "Marca": "Yamaha",
+        "Modelo": "YZF-R6",
+        "Anio": "2021",
+        "Imagen": "/img/yamaha_yzf-r6.jpeg"
+    },
+    {
+        "Id": 3,
+        "Marca": "Kawasaki",
+        "Modelo": "Ninja 650",
+        "Anio": "2023",
+        "Imagen": "/img/ninja650_2023.png"
+    },
+    {
+        "Id": 4,
+        "Marca": "Suzuki",
+        "Modelo": "GSX-R750",
+        "Anio": "2022",
+        "Imagen": "/img/gsxr750.jpg"
+    },
+    {
+        "Id": 5,
+        "Marca": "Ducati",
+        "Modelo": "Panigale V4",
+        "Anio": "2023",
+        "Imagen": "/img/panigalev4_2023.jpg"
+    },
+    {
+        "Id": 6,
+        "Marca": "BMW",
+        "Modelo": "S1000RR",
+        "Anio": "2021",
+        "Imagen": "/img/s100rr_2021.jpg"
+    },
+    {
+        "Id": 7,
+        "Marca": "Triumph",
+        "Modelo": "Street Triple",
+        "Anio": "2022",
+        "Imagen": "/img/street_2022.webp"
+    },
+    {
+        "Id": 8,
+        "Marca": "Harley-Davidson",
+        "Modelo": "Sport 883",
+        "Anio": "2021",
+        "Imagen": "/img/harley.webp"
+    },
+    {
+        "Id": 9,
+        "Marca": "KTM",
+        "Modelo": "Duke 390",
+        "Anio": "2023",
+        "Imagen": "/img/duke390.jpg"
+    },
+    {
+        "Id": 10,
+        "Marca": "Aprilia",
+        "Modelo": "RSV4",
+        "Anio": "2022",
+        "Imagen": "/img/rsv4.webp"
+    }
+]
